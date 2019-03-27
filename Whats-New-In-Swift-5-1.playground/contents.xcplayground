@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Introduction'/>
+        <page name='Universal Self'/>
+        <page name='Warnings for ambiguous none cases'/>
+        <page name='Matching optional enums against non-optionals'/>
+        <page name='Ordered collection diffing'/>
+        <page name='Creating uninitialized arrays'/>
+    </pages>
+</playground>
