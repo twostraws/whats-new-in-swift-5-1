@@ -2,7 +2,11 @@
 <playground version='6.0' target-platform='ios' display-mode='rendered'>
     <pages>
         <page name='Introduction'/>
+        <page name='Improvements to synthesized memberwise initializers'/>
+        <page name='Implicit returns from single-expression functions'/>
         <page name='Universal Self'/>
+        <page name='Opaque return types'/>
+        <page name='Static and class subscripts'/>
         <page name='Warnings for ambiguous none cases'/>
         <page name='Matching optional enums against non-optionals'/>
         <page name='Ordered collection diffing'/>

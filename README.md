@@ -2,7 +2,11 @@
 
 This is an Xcode playground that demonstrates the new features introduced in Swift 5.1: 
 
+* Improvements to synthesized memberwise initializers
+* Implicit returns from single-expression functions
 * Universal `Self`
+* Opaque return types
+* Static and class subscripts
 * Warnings for ambiguous `none` cases
 * Matching optional enums against non-optionals
 * Ordered collection diffing
