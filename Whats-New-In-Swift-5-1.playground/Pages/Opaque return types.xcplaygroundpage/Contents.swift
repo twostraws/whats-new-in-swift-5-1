@@ -5,7 +5,7 @@
 
  [SE-0244](https://github.com/apple/swift-evolution/blob/master/proposals/0244-opaque-result-types.md) introduces the concept of opaque types into Swift. An opaque type is one where we’re told about the capabilities of an object without knowing specifically what kind of object it is.
 
- At first glance that sounds a lot like a protocol, but opaque return types take the concept of protocols significantly further  because are able to work with associated types, they require the same type to be used internally each time, and they allow us to hide implementation details.
+ At first glance that sounds a lot like a protocol, but opaque return types take the concept of protocols significantly further because they are able to work with associated types, they require the same type to be used internally each time, and they allow us to hide implementation details.
 
  As an example, if we wanted to launch different kinds of fighters from a Rebel base we might write code like this:
 */
