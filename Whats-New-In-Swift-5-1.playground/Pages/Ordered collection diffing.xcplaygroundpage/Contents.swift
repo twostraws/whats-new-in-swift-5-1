@@ -16,7 +16,7 @@
 var scores1 = [100, 91, 95, 98, 100]
 let scores2 = [100, 98, 95, 91, 100]
 
-if #available(iOS 9999, *) {
+if #available(iOS 13, *) {
     let diff = scores2.difference(from: scores1)
     
     for change in diff {
@@ -35,7 +35,7 @@ if #available(iOS 9999, *) {
 
  Rather than applying changes by hand, you can apply the whole collection using a new `applying()` method, like this:
 */
-if #available(iOS 9999, *) {
+if #available(iOS 13, *) {
     let diff = scores2.difference(from: scores1)
     let result = scores1.applying(diff) ?? []
 }
